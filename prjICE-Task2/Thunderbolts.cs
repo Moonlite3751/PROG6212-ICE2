@@ -79,7 +79,8 @@ namespace prjICE_Task2
                 else if(attName == "heroName")
                     return heroName;
 
-
+                else if (attName == "personality")
+                    return personality;
 
                 else
                     return null;
